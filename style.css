@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.page_preview_header{
+   width: 100%;
+   height: 70px;
+   background-color: rgb(242, 242, 242);
+
+}
+.page_preview_header_inner{
+    background-image: url(./photo&logo/first\ header\ logo-w.png);
+    width: 123px;
+    height: 40px;
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+.navbar_{
+    width: 100%;
+    height: 80px;
+}
+.navbar_logo_{
+    background-image: url(./photo&logo/default-logo.png);
+    width: 64px;  
+    height: 32px;
+    background-size: cover;
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+.navbar_ a{
+    width: 100px;
+    height: 16px;
+    position: relative; 
+    left: 800px; 
+    padding: 25px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(17,17,17);
+    font-style: normal;
+    text-decoration: none;
+    line-height: 16px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+.navbar_ a:hover{
+    color: red;
+}
+.main_containt{
+    background-image: url(./photo&logo/maountain.jpg);
+    width: 100%;
+    height: 758px;
+    background-size: cover;
+}
+.main_containt_inner_box{
+    width: 585px;
+    height: 378px;
+    background-color: rgb(204, 211, 219);
+    position: relative;
+    top: 380px;
+    left: 650px;
+}
+.main_containt_inner_box h2{
+    width: 485px;
+    height: 66px;
+    font-size: 60px;
+    font-family: Raleway, sans-serif;
+    padding-left: 50px;
+    padding-top: 30px;
+    font-weight: 400;
+}
+.main_containt_inner_box p{
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 28px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.inner_box_freepic{
+    font-size: 16px;
+    font-family:"Open Sans", sans-serif;
+    font-style: italic;
+    line-height: 25px;
+
+}
+.inner_box_freepic a{
+    color: black;
+}
+.inner_box_freepic a:hover{
+    color: brown ;
+}
+
+.readmore_box{
+    width: 230px;
+    height: 54px; 
+    background-color: white;
+    border-radius: 50px; 
+    margin-top: 30px;
+    margin-left: 50px;
+    color:black;
+}
+.readmore_box p{
+    position: relative;
+    top: -15px;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.readmore_box p:hover{
+    color:red;
+}
+
+.main_footer{
+    width: 100%;
+    height: 142px;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main_footer p{
+    color: white;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 22px;
+}
+.inner_footer{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(51,51, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.inner_footer p{
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    font-family:"Open Sans", sans-serif;
+    
+}
+.inner_footer a{
+    color: rgb(173, 204, 233);
+    font-size: 14px;
+    font-family:"Open Sans", sans-serif;
+}
+.inner_footer a:hover{
+    color: black;
+}
+
+
+
